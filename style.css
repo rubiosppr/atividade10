@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.text-content {
+  width: 70%;
+}
+
+.text-content p {
+  text-align: justify;
+  margin-bottom: 20px;
+  font-family: "Arial Black", sans-serif;
+}
+
+.images {
+  text-align: right;
+}
+
+.images img {
+  display: block;
+  margin: 30px 0;
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border: 5px solid white;
+}
