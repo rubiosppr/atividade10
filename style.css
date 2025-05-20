@@ -19,7 +19,6 @@ main {
 }
 
 .content-pair {
-  display: flex;
   align-items: center; /* Alinha verticalmente o texto e a imagem */
   margin-bottom: 30px;
 }
